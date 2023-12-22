@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         buttonOpenGitHub.setOnClickListener(view -> {
             Log.d(TAG, "~~~ Pressing the button 'open_github' ~~~");
 
-            startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://github.com/LebedevSergeyVach")));
+            startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://github.com/LebedevSergeyVach/Corporation")));
         });
     }
 }
