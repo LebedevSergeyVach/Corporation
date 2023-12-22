@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Corporation</string>
+
+    <string name="app_description">directories</string>
+    <string name="greeting">Добро пожаловать в Corporation!</string>
+    <string name="begin">Начать!</string>
+    <string name="exit">Выйти!</string>
+    
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    
+    <string name="one_situation">Первая сделка Windows!</string>
+    <string name="two_situation">Корпоратив!</string>
+    <string name="three_situation">Совещание, босс доволен!</string>
+    <string name="four">Первый лояльный клиент!</string>
+
+    <string name="one_history">
+        Только вы начали работать и тут же удача! Вы нашли клиента и продаете ему
+        партию ПО MS Windows. Ему в принципе достаточно взять 100 коробок версии HOME. \n
+        (1) у клиента денег много, а у меня нет - вы выпишете ему счет на 120 коробок ULTIMATE по 50тр. \n
+        (2) чуть дороже сделаем, кто там заметит - вы выпишете ему счет на 100 коробок PRO по 10тр. \n
+        (3) как надо так и сделаем - вы выпишете ему счет на 100 коробок HOME по 5тр.
+    </string>
+
+    <string name="two_history">
+        Неудачное начало, ну что ж, сегодня в конторе корпоратив! \n
+        Познакомлюсь с коллегами, людей так сказать посмотрю, себя покажу.
+    </string>
+
+    <string name="three_history">
+        Сегодня будет совещание, меня неожиданно вызвали, есть сведения, что босс доволен сегодняшней сделкой!
+    </string>
+
+    <string name="four_history">
+        Мой первый клиент доволен скоростью и качеством моей работы. \n
+        Сейчас мне звонил лично директор компании, сообщил что скоро состоится еще более крупная сделка и он хотел,
+        чтобы по ней работал именно я!
+    </string>
+
+</resources>
