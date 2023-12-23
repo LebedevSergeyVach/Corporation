@@ -1,4 +1,4 @@
-# Registration project
+# Corporation project
 
 ___
 
