@@ -41,8 +41,8 @@ public class Game extends AppCompatActivity {
         TextViewHistory = findViewById(R.id.text_history);
         TextViewInfo = findViewById(R.id.text_info);
 
-        TextViewHistory.setText(getString(R.string.one_history));
         TextViewSituation.setText(getString(R.string.one_situation));
+        TextViewHistory.setText(getString(R.string.one_history));
         TextViewInfo = findViewById(R.id.text_info);
 
         TextViewInfo.setText("Карьера: " + manager.position + " Активы: " + manager.money + " Репутация: " + manager.reputation);
@@ -56,6 +56,9 @@ public class Game extends AppCompatActivity {
             manager.position += story.current_situation.dA;
             manager.money += story.current_situation.dK;
             manager.reputation += story.current_situation.dR;
+
+            TextViewSituation.setText(story.current_situation.subject);
+            Log.d(TAG, story.current_situation.subject);
 
             TextViewHistory.setText(story.current_situation.text);
             Log.d(TAG, story.current_situation.text);
@@ -77,6 +80,9 @@ public class Game extends AppCompatActivity {
             manager.money += story.current_situation.dK;
             manager.reputation += story.current_situation.dR;
 
+            TextViewSituation.setText(story.current_situation.subject);
+            Log.d(TAG, story.current_situation.subject);
+
             TextViewHistory.setText(story.current_situation.text);
             Log.d(TAG, story.current_situation.text);
 
@@ -96,6 +102,9 @@ public class Game extends AppCompatActivity {
             manager.position += story.current_situation.dA;
             manager.money += story.current_situation.dK;
             manager.reputation += story.current_situation.dR;
+
+            TextViewSituation.setText(story.current_situation.subject);
+            Log.d(TAG, story.current_situation.subject);
 
             TextViewHistory.setText(story.current_situation.text);
             Log.d(TAG, story.current_situation.text);
